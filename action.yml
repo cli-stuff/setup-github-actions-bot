@@ -1,0 +1,11 @@
+name: Configure GitHub Actions Bot
+description: Configures Git user.name and user.email for GitHub Actions.
+
+runs:
+  using: composite
+  steps:
+    - name: Configure Git User
+      shell: bash
+      run: |
+        git config --global user.name  'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
