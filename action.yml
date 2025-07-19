@@ -1,5 +1,5 @@
 name: Setup GitHub Actions Bot
-description: Configures Git user.name and user.email for GitHub Actions, allowing commits and other Git operations to be attributed correctly.
+description: Configures Git user.name and user.email for GitHub Actions bot for correct attribution of commits and operations.
 
 runs:
   using: composite
